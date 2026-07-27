@@ -1,0 +1,21 @@
+# Build output
+target/
+
+# Generated test output
+Reports/
+screenshots/
+test-output/
+downloads/
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db

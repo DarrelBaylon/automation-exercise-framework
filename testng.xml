@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Exercise Regression Suite" parallel="false">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="utils.SuiteListener"/>
+  </listeners>
+  <test name="Automation Exercise Test Cases 1 to 26">
+    <classes>
+      <class name="regression.AutomationExerciseTestCases"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
