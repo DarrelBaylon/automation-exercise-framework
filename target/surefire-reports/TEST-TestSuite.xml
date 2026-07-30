@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="2402.088" tests="26" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\AcerPredator\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\target\test-classes;C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\target\classes;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\AcerPredator\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\AcerPredator\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\AcerPredator\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\AcerPredator\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\AcerPredator\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\AcerPredator\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\AcerPredator\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\AcerPredator\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\AcerPredator\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\AcerPredator\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\AcerPredator\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\AcerPredator\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\AcerPredator\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\AcerPredator\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\AcerPredator\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\AcerPredator\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\AcerPredator\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\AcerPredator\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\AcerPredator\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\AcerPredator\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\AcerPredator\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\AcerPredator\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\AcerPredator\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\AcerPredator\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\AcerPredator\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\AcerPredator\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\AcerPredator\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\AcerPredator\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\AcerPredator\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\AcerPredator\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\AcerPredator\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\AcerPredator\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\AcerPredator\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\AcerPredator\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\AcerPredator\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\AcerPredator\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\AcerPredator\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\AcerPredator\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Manila"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PH"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.11\bin"/>
+    <property name="sun.java.command" value="C:\Users\AcerPredator\AppData\Local\Temp\surefire18088006321789026386\surefirebooter-20260728012112249_3.jar C:\Users\AcerPredator\AppData\Local\Temp\surefire18088006321789026386 2026-07-28T01-21-12_151-jvmRun1 surefire-20260728012112249_1tmp surefire_0-20260728012112249_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\target\test-classes;C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\target\classes;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\AcerPredator\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\AcerPredator\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\AcerPredator\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\AcerPredator\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\AcerPredator\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\AcerPredator\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\AcerPredator\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\AcerPredator\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\AcerPredator\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\AcerPredator\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\AcerPredator\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\AcerPredator\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\AcerPredator\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\AcerPredator\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\AcerPredator\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\AcerPredator\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\AcerPredator\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\AcerPredator\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\AcerPredator\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\AcerPredator\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\AcerPredator\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\AcerPredator\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\AcerPredator\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\AcerPredator\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\AcerPredator\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\AcerPredator\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\AcerPredator\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\AcerPredator\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\AcerPredator\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\AcerPredator\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\AcerPredator\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\AcerPredator\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\AcerPredator\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\AcerPredator\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\AcerPredator\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\AcerPredator\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\AcerPredator\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\AcerPredator\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\AcerPredator\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\AcerPredator\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\AcerPredator"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\AcerPredator\AppData\Local\Temp\surefire18088006321789026386\surefirebooter-20260728012112249_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.11+9-LTS-211"/>
+    <property name="user.name" value="AcerPredator"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\AcerPredator\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ACERPR~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.11"/>
+    <property name="user.dir" value="C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\AcerPredator\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\AcerPredator\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.16\bin;C:\Program Files\Java\jdk-21.0.11\bin;C:\Users\AcerPredator\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.19.10-hotspot\bin;C:\Users\AcerPredator\AppData\Local\Microsoft\WindowsApps;C:\Users\AcerPredator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\AcerPredator\AppData\Roaming\npm;C:\src\flutter\bin;C:\Users\AcerPredator\AppData\Local\GitHubDesktop\bin;c:\Users\AcerPredator\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.11+9-LTS-211"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="tc_01_RegisterUser" classname="regression.AutomationExerciseTestCases" time="130.343">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Jul 28, 2026 1:21:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:21:13 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_02_LoginUserWithCorrectEmailAndPassword" classname="regression.AutomationExerciseTestCases" time="140.744">
+    <system-out><![CDATA[Capturing screenshot for test: tc_01_RegisterUser
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_01_RegisterUser_2026_07_28__01_23_47_052.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:23:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:23:47 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_03_LoginUserWithIncorrectEmailAndPassword" classname="regression.AutomationExerciseTestCases" time="23.338">
+    <system-out><![CDATA[Capturing screenshot for test: tc_02_LoginUserWithCorrectEmailAndPassword
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_02_LoginUserWithCorrectEmailAndPassword_2026_07_28__01_26_31_150.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:26:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:26:31 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_04_LogoutUser" classname="regression.AutomationExerciseTestCases" time="157.701">
+    <system-out><![CDATA[Capturing screenshot for test: tc_03_LoginUserWithIncorrectEmailAndPassword
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_03_LoginUserWithIncorrectEmailAndPassword_2026_07_28__01_27_17_472.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:27:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:27:18 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_05_RegisterUserWithExistingEmail" classname="regression.AutomationExerciseTestCases" time="121.215">
+    <system-out><![CDATA[Capturing screenshot for test: tc_04_LogoutUser
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_04_LogoutUser_2026_07_28__01_30_18_033.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:30:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:30:20 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_06_ContactUsForm" classname="regression.AutomationExerciseTestCases" time="44.853">
+    <system-out><![CDATA[Capturing screenshot for test: tc_05_RegisterUserWithExistingEmail
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_05_RegisterUserWithExistingEmail_2026_07_28__01_32_44_251.png
+Alert accepted.
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:32:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:32:45 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_07_VerifyTestCasesPage" classname="regression.AutomationExerciseTestCases" time="22.227">
+    <system-out><![CDATA[Capturing screenshot for test: tc_06_ContactUsForm
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_06_ContactUsForm_2026_07_28__01_33_52_041.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:33:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:33:52 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_08_VerifyAllProductsAndProductDetailPage" classname="regression.AutomationExerciseTestCases" time="47.892">
+    <system-out><![CDATA[Capturing screenshot for test: tc_07_VerifyTestCasesPage
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_07_VerifyTestCasesPage_2026_07_28__01_34_37_162.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:34:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:34:37 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_09_SearchProduct" classname="regression.AutomationExerciseTestCases" time="24.538">
+    <system-out><![CDATA[Capturing screenshot for test: tc_08_VerifyAllProductsAndProductDetailPage
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_08_VerifyAllProductsAndProductDetailPage_2026_07_28__01_35_47_954.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:35:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:35:48 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_10_VerifySubscriptionInHomePage" classname="regression.AutomationExerciseTestCases" time="20.344">
+    <system-out><![CDATA[Capturing screenshot for test: tc_09_SearchProduct
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_09_SearchProduct_2026_07_28__01_36_35_376.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:36:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:36:36 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_11_VerifySubscriptionInCartPage" classname="regression.AutomationExerciseTestCases" time="22.234">
+    <system-out><![CDATA[Capturing screenshot for test: tc_10_VerifySubscriptionInHomePage
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_10_VerifySubscriptionInHomePage_2026_07_28__01_37_18_687.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:37:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:37:19 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_12_AddProductsInCart" classname="regression.AutomationExerciseTestCases" time="29.641">
+    <system-out><![CDATA[Capturing screenshot for test: tc_11_VerifySubscriptionInCartPage
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_11_VerifySubscriptionInCartPage_2026_07_28__01_38_03_834.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:38:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:38:04 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_13_VerifyProductQuantityInCart" classname="regression.AutomationExerciseTestCases" time="44.015">
+    <system-out><![CDATA[Capturing screenshot for test: tc_12_AddProductsInCart
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_12_AddProductsInCart_2026_07_28__01_38_56_269.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:38:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:38:56 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_14_PlaceOrderRegisterWhileCheckout" classname="regression.AutomationExerciseTestCases" time="167.698">
+    <system-out><![CDATA[Capturing screenshot for test: tc_13_VerifyProductQuantityInCart
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_13_VerifyProductQuantityInCart_2026_07_28__01_40_03_255.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:40:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:40:03 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_15_PlaceOrderRegisterBeforeCheckout" classname="regression.AutomationExerciseTestCases" time="119.478">
+    <system-out><![CDATA[Capturing screenshot for test: tc_14_PlaceOrderRegisterWhileCheckout
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_14_PlaceOrderRegisterWhileCheckout_2026_07_28__01_43_13_866.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:43:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:43:14 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_16_PlaceOrderLoginBeforeCheckout" classname="regression.AutomationExerciseTestCases" time="162.667">
+    <system-out><![CDATA[Capturing screenshot for test: tc_15_PlaceOrderRegisterBeforeCheckout
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_15_PlaceOrderRegisterBeforeCheckout_2026_07_28__01_45_37_054.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:45:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:45:37 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_17_RemoveProductsFromCart" classname="regression.AutomationExerciseTestCases" time="24.632">
+    <system-out><![CDATA[Capturing screenshot for test: tc_16_PlaceOrderLoginBeforeCheckout
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_16_PlaceOrderLoginBeforeCheckout_2026_07_28__01_48_42_753.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:48:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:48:43 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_18_ViewCategoryProducts" classname="regression.AutomationExerciseTestCases" time="14.843">
+    <system-out><![CDATA[Capturing screenshot for test: tc_17_RemoveProductsFromCart
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_17_RemoveProductsFromCart_2026_07_28__01_49_30_668.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:49:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:49:31 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_19_ViewAndCartBrandProducts" classname="regression.AutomationExerciseTestCases" time="6.55">
+    <system-out><![CDATA[Capturing screenshot for test: tc_18_ViewCategoryProducts
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_18_ViewCategoryProducts_2026_07_28__01_50_08_545.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:50:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:50:09 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_20_SearchProductsAndVerifyCartAfterLogin" classname="regression.AutomationExerciseTestCases" time="141.761">
+    <system-out><![CDATA[Capturing screenshot for test: tc_19_ViewAndCartBrandProducts
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_19_ViewAndCartBrandProducts_2026_07_28__01_50_38_005.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:50:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:50:38 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_21_AddReviewOnProduct" classname="regression.AutomationExerciseTestCases" time="8.452">
+    <system-out><![CDATA[Capturing screenshot for test: tc_20_SearchProductsAndVerifyCartAfterLogin
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_20_SearchProductsAndVerifyCartAfterLogin_2026_07_28__01_53_22_708.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:53:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:53:23 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_22_AddToCartFromRecommendedItems" classname="regression.AutomationExerciseTestCases" time="23.282">
+    <system-out><![CDATA[Capturing screenshot for test: tc_21_AddReviewOnProduct
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_21_AddReviewOnProduct_2026_07_28__01_53_53_488.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:53:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:53:54 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_23_VerifyAddressDetailsInCheckoutPage" classname="regression.AutomationExerciseTestCases" time="120.686">
+    <system-out><![CDATA[Capturing screenshot for test: tc_22_AddToCartFromRecommendedItems
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_22_AddToCartFromRecommendedItems_2026_07_28__01_54_39_750.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:54:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:54:40 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_24_DownloadInvoiceAfterPurchaseOrder" classname="regression.AutomationExerciseTestCases" time="141.732">
+    <system-out><![CDATA[Capturing screenshot for test: tc_23_VerifyAddressDetailsInCheckoutPage
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_23_VerifyAddressDetailsInCheckoutPage_2026_07_28__01_57_03_292.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:57:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:57:04 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_25_VerifyScrollUpUsingArrowButton" classname="regression.AutomationExerciseTestCases" time="20.703">
+    <system-out><![CDATA[Capturing screenshot for test: tc_24_DownloadInvoiceAfterPurchaseOrder
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_24_DownloadInvoiceAfterPurchaseOrder_2026_07_28__01_59_47_906.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 1:59:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 1:59:48 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_26_VerifyScrollUpWithoutArrowButton" classname="regression.AutomationExerciseTestCases" time="20.156">
+    <system-out><![CDATA[Capturing screenshot for test: tc_25_VerifyScrollUpUsingArrowButton
+Screenshot saved to: C:\Users\AcerPredator\Downloads\automation-exercise-framework (11)\automation-exercise-framework\Reports\REGRESSION_CHROME\img-src\tc_25_VerifyScrollUpUsingArrowButton_2026_07_28__02_00_31_537.png
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2026 2:00:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+Jul 28, 2026 2:00:32 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.182. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>
