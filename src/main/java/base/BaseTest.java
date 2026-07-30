@@ -128,8 +128,14 @@ public class BaseTest {
 			options.addArguments("--disable-notifications");
 			options.addArguments("disable-infobars");
 			options.addArguments("--disable-extensions");
+			options.addArguments("--disable-popup-blocking");
+			options.addArguments("--no-first-run");
+			options.addArguments("--start-maximized");
+			// Block ads via host rules (automationexercise.com uses Google AdSense)
+			options.addArguments("--host-resolver-rules=MAP googleads.g.doubleclick.net 127.0.0.1, MAP pagead2.googlesyndication.com 127.0.0.1");
 			options.setCapability("acceptInsecureCerts", true);
 			options.setExperimentalOption("prefs", downloadPreferences());
+			options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver(options);
 			break;
@@ -146,8 +152,14 @@ public class BaseTest {
 			options.addArguments("--disable-notifications");
 			options.addArguments("disable-infobars");
 			options.addArguments("--disable-extensions");
+			options.addArguments("--disable-popup-blocking");
+			options.addArguments("--no-first-run");
+			options.addArguments("--start-maximized");
+			// Block ads via host rules (automationexercise.com uses Google AdSense)
+			options.addArguments("--host-resolver-rules=MAP googleads.g.doubleclick.net 127.0.0.1, MAP pagead2.googlesyndication.com 127.0.0.1");
 			options.setCapability("acceptInsecureCerts", true);
 			options.setExperimentalOption("prefs", downloadPreferences());
+			options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver(options);
 			break;
